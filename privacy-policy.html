@@ -3,416 +3,183 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Privacy Policy | LyfQR</title>
-  <meta name="description" content="Read the LyfQR Privacy Policy to understand how information is handled when using LyfQR safety, identity and QR features.">
+  <meta name="description" content="LyfQR Privacy Policy covering account information, location, emergency evidence, data retention and deletion.">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#05070a">
-
   <link rel="canonical" href="https://www.lyfqr.com/privacy-policy.html">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <style>
     :root {
-      --bg: #05070a;
-      --panel: #0d1117;
-      --text: #f5f7fa;
-      --muted: #a5adb8;
-      --green: #00ed32;
-      --border: rgba(255,255,255,.10);
+      --bg:#05070a; --panel:#0d1117; --text:#f5f7fa;
+      --muted:#a5adb8; --green:#00ed32; --border:rgba(255,255,255,.10);
     }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
     body {
-      margin: 0;
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      background:
-        radial-gradient(at 100% 0%, rgba(0,237,50,.08), transparent 35%),
-        var(--bg);
-      color: var(--text);
-      line-height: 1.8;
+      margin:0; font-family:'Plus Jakarta Sans',sans-serif;
+      background:radial-gradient(at 100% 0%,rgba(0,237,50,.08),transparent 35%),var(--bg);
+      color:var(--text); line-height:1.75;
     }
-
-    a {
-      color: var(--green);
-      overflow-wrap: anywhere;
-    }
-
-    .container {
-      width: min(900px, calc(100% - 32px));
-      margin: 0 auto;
-    }
-
-    header {
-      border-bottom: 1px solid var(--border);
-      background: rgba(5,7,10,.92);
-    }
-
-    .nav {
-      min-height: 76px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 20px;
-    }
-
-    .brand {
-      color: white;
-      text-decoration: none;
-      font-size: 25px;
-      font-weight: 800;
-      letter-spacing: 1px;
-    }
-
-    .brand span {
-      color: var(--green);
-    }
-
-    .home-link {
-      font-size: 13px;
-      font-weight: 700;
-      text-decoration: none;
-    }
-
-    main {
-      padding: 54px 0 76px;
-    }
-
-    .intro {
-      padding: 30px;
-      border: 1px solid var(--border);
-      background: linear-gradient(145deg, #10151b, #090c10);
-      border-radius: 24px;
-      margin-bottom: 24px;
-    }
-
-    .eyebrow {
-      color: var(--green);
-      text-transform: uppercase;
-      letter-spacing: 3px;
-      font-size: 11px;
-      font-weight: 800;
-    }
-
-    h1 {
-      font-size: clamp(30px, 5vw, 46px);
-      line-height: 1.2;
-      margin: 12px 0;
-      letter-spacing: -1.5px;
-    }
-
-    .updated {
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .content {
-      padding: 30px;
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      background: rgba(255,255,255,.025);
-    }
-
-    section {
-      margin-bottom: 32px;
-      scroll-margin-top: 20px;
-    }
-
-    section:last-child {
-      margin-bottom: 0;
-    }
-
-    h2 {
-      font-size: 19px;
-      line-height: 1.45;
-      margin: 0 0 12px;
-      color: white;
-    }
-
-    p, li {
-      color: #c1c7d0;
-      font-size: 14px;
-    }
-
-    ul {
-      padding-left: 23px;
-    }
-
-    li {
-      margin-bottom: 8px;
-    }
-
-    .notice {
-      padding: 16px;
-      border-left: 3px solid var(--green);
-      background: rgba(0,237,50,.055);
-      border-radius: 8px;
-      color: #cbd4cd;
-      font-size: 13px;
-    }
-
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 28px 0;
-      color: var(--muted);
-      font-size: 12px;
-      text-align: center;
-    }
-
-    footer a {
-      margin: 0 8px;
-      text-decoration: none;
-    }
-
-    @media (max-width: 600px) {
-      main {
-        padding: 28px 0 44px;
-      }
-
-      .intro, .content {
-        padding: 21px;
-        border-radius: 18px;
-      }
-
-      .nav {
-        min-height: 66px;
-      }
-
-      .brand {
-        font-size: 22px;
-      }
+    a { color:var(--green); overflow-wrap:anywhere; }
+    .container { width:min(900px,calc(100% - 32px)); margin:auto; }
+    header { border-bottom:1px solid var(--border); background:rgba(5,7,10,.92); }
+    .nav { min-height:70px; display:flex; align-items:center; justify-content:space-between; gap:16px; }
+    .brand { color:white; text-decoration:none; font-size:24px; font-weight:800; letter-spacing:1px; }
+    .brand span { color:var(--green); }
+    .home-link { font-size:13px; font-weight:700; text-decoration:none; }
+    main { padding:42px 0 60px; }
+    .intro,.content { border:1px solid var(--border); border-radius:20px; }
+    .intro { padding:26px; background:linear-gradient(145deg,#10151b,#090c10); margin-bottom:20px; }
+    .eyebrow { color:var(--green); text-transform:uppercase; letter-spacing:2px; font-size:11px; font-weight:800; }
+    h1 { font-size:clamp(30px,5vw,44px); line-height:1.2; margin:10px 0; letter-spacing:-1px; }
+    .updated { color:var(--muted); font-size:12px; margin-top:8px; }
+    .content { padding:26px; background:rgba(255,255,255,.025); }
+    section { margin-bottom:26px; scroll-margin-top:20px; }
+    section:last-child { margin-bottom:0; }
+    h2 { font-size:18px; line-height:1.45; margin:0 0 9px; color:white; }
+    p,li { color:#c1c7d0; font-size:14px; }
+    p { margin:0 0 10px; }
+    ul { padding-left:22px; margin:8px 0; }
+    li { margin-bottom:5px; }
+    .notice { padding:13px; border-left:3px solid var(--green); background:rgba(0,237,50,.055); border-radius:8px; font-size:13px; color:#cbd4cd; }
+    footer { border-top:1px solid var(--border); padding:24px 0; color:var(--muted); font-size:12px; text-align:center; }
+    footer a { margin:0 8px; text-decoration:none; }
+    @media(max-width:600px) {
+      main { padding:24px 0 38px; }
+      .intro,.content { padding:19px; border-radius:16px; }
+      .nav { min-height:62px; }
+      .brand { font-size:21px; }
     }
   </style>
 </head>
 
 <body>
-  <header>
-    <div class="container nav">
-      <a class="brand" href="https://www.lyfqr.com/" aria-label="LyfQR Home">
-        LYF<span>QR</span>
-      </a>
-      <a class="home-link" href="https://www.lyfqr.com/">← Back to Home</a>
-    </div>
-  </header>
+<header>
+  <nav class="container nav">
+    <a class="brand" href="https://www.lyfqr.com/" aria-label="LyfQR Home">LYF<span>QR</span></a>
+    <a class="home-link" href="https://www.lyfqr.com/">← Back to Home</a>
+  </nav>
+</header>
 
-  <main class="container">
-    <div class="intro">
-      <div class="eyebrow">Privacy &amp; Security</div>
-      <h1>Privacy Policy</h1>
-      <p>
-        Your privacy matters. This policy explains how LyfQR may handle
-        information when you use our application and website.
-      </p>
-      <div class="updated">Last updated: October 25, 2026</div>
-    </div>
+<main class="container">
+  <div class="intro">
+    <div class="eyebrow">Privacy &amp; Security</div>
+    <h1>Privacy Policy</h1>
+    <p>Your privacy matters. This policy explains how LyfQR handles information when you use our application and website.</p>
+    <div class="updated">Last updated: October 25, 2026</div>
+  </div>
 
-    <div class="content">
-      <section id="introduction">
-        <h2>1. Introduction</h2>
-        <p>
-          LyfQR provides safety, identity, QR-based and related utility
-          features. This Privacy Policy describes the categories of
-          information that may be processed, why it may be used, and the
-          choices available to users.
-        </p>
-        <p>
-          This policy applies to the LyfQR mobile application and
-          <a href="https://www.lyfqr.com/">www.lyfqr.com</a>.
-        </p>
-      </section>
+  <div class="content">
+    <section id="introduction">
+      <h2>1. Introduction</h2>
+      <p>LyfQR provides safety, identity, QR-based and related utility features. This policy explains what information may be processed, how it is used and the choices available to users.</p>
+      <p>This policy applies to the LyfQR application and <a href="https://www.lyfqr.com/">www.lyfqr.com</a>.</p>
+    </section>
 
-      <section id="information">
-        <h2>2. Information We May Process</h2>
-        <p>Depending on the features you use and permissions you grant, LyfQR may process:</p>
-        <ul>
-          <li><strong>Account information:</strong> User identifiers and information needed to authenticate users and provide application access.</li>
-          <li><strong>Location information:</strong> Location data used by enabled geofencing, trip-monitoring, emergency or nearby-place features.</li>
-          <li><strong>Emergency information:</strong> SOS events, timestamps, status information and information needed to notify designated guardians.</li>
-          <li><strong>Camera and audio information:</strong> Images or audio recordings if an enabled emergency evidence feature captures them.</li>
-          <li><strong>Guardian and trip information:</strong> Information used to configure trusted contacts and manage safety-related trip events.</li>
-          <li><strong>Diagnostic information:</strong> Application errors, geofence events, technical logs and troubleshooting information.</li>
-          <li><strong>Support and subscription information:</strong> Information provided when contacting support or using paid features.</li>
-        </ul>
-        <p>
-          The information actually processed depends on your account,
-          application configuration, enabled features and device permissions.
-        </p>
-      </section>
+    <section id="information">
+      <h2>2. Information We May Process</h2>
+      <p>Depending on the features used and permissions granted, LyfQR may process:</p>
+      <ul>
+        <li><strong>Account information:</strong> User identifiers and profile details needed for app access.</li>
+        <li><strong>Location information:</strong> Location used by enabled geofencing, trip monitoring, SOS and nearby-place features.</li>
+        <li><strong>Emergency information:</strong> SOS events, timestamps, status and guardian notification details.</li>
+        <li><strong>Camera and audio information:</strong> Images and recordings captured by enabled emergency features.</li>
+        <li><strong>Guardian and trip information:</strong> Trusted-contact connections and safety-related trip records.</li>
+        <li><strong>Technical information:</strong> App errors, diagnostic logs and troubleshooting data.</li>
+        <li><strong>Support and subscription information:</strong> Details provided for support or paid services.</li>
+      </ul>
+      <p>Information processed depends on your account, enabled features, app configuration and device permissions.</p>
+    </section>
 
-      <section id="use">
-        <h2>3. How We Use Information</h2>
-        <p>Information may be used to:</p>
-        <ul>
-          <li>Provide and maintain application features and account access.</li>
-          <li>Operate SOS and guardian notification functionality.</li>
-          <li>Support enabled location-based safety features and geofencing.</li>
-          <li>Provide QR, identity and nearby-place utilities.</li>
-          <li>Handle emergency evidence when the relevant feature is enabled.</li>
-          <li>Diagnose errors, protect application security and improve reliability.</li>
-          <li>Manage subscriptions, respond to support requests and meet legal obligations.</li>
-        </ul>
-      </section>
+    <section id="use">
+      <h2>3. How We Use Information</h2>
+      <ul>
+        <li>Provide app features and account access.</li>
+        <li>Operate SOS alerts and guardian notifications.</li>
+        <li>Support location-based safety features and geofencing.</li>
+        <li>Provide QR, identity and nearby-place utilities.</li>
+        <li>Handle emergency evidence when enabled.</li>
+        <li>Maintain security, troubleshoot errors and improve reliability.</li>
+        <li>Manage subscriptions, support requests and legal obligations.</li>
+      </ul>
+    </section>
 
-      <section id="location">
-        <h2>4. Location and Background Location</h2>
-        <p>
-          Certain safety features may require location permissions, including
-          background location access where necessary for an enabled feature.
-          This may allow the application to detect entry into or exit from a
-          configured office geofence or support trip monitoring.
-        </p>
-        <p>
-          Nearby-place features may use location to find relevant services.
-          You can manage location permissions in Android settings. Restricting
-          access may limit the functionality of features that depend on location.
-        </p>
-        <p>
-          Location permissions are requested to support the applicable
-          features, not to provide unrestricted access to location information.
-        </p>
-      </section>
+    <section id="location">
+      <h2>4. Location and Background Location</h2>
+      <p>Some safety features require location access, including background location where necessary, to support configured office geofencing, trip monitoring or emergency functions.</p>
+      <p>Nearby-place features may also use location to find relevant services. You can manage permissions in Android settings; restricting them may limit related features.</p>
+    </section>
 
-      <section id="emergency-evidence">
-        <h2>5. Emergency Camera and Audio Features</h2>
-        <p>
-          If an emergency evidence feature is enabled, LyfQR may use camera
-          or microphone access to capture images or audio, subject to device
-          permissions, Android restrictions and the feature's actual operation.
-        </p>
-        <p>
-          Such evidence may contain sensitive personal information. The
-          application should explain when evidence capture is enabled and
-          how resulting files are stored, shared, retained and deleted.
-        </p>
-        <div class="notice">
-          Evidence storage locations, access permissions, recipients and
-          retention periods must follow the application's actual behavior.
-          Do not assume that all evidence is stored locally or automatically
-          deleted unless that behavior is implemented.
-        </div>
-      </section>
+    <section id="emergency-evidence">
+      <h2>5. Emergency Camera, Audio and Location Evidence</h2>
+      <p>When an emergency evidence feature is enabled, LyfQR may capture SOS-related audio recordings, incident pictures and location data, subject to the feature's operation, device permissions and Android restrictions.</p>
+      <p>SOS-generated audio recordings, SOS incident pictures and associated SOS location data are automatically deleted from the database and Firebase Storage after 48 hours.</p>
+      <div class="notice">Emergency evidence may contain sensitive personal information. It may be shared with designated guardians as required for the safety feature you activate.</div>
+    </section>
 
-      <section id="sharing">
-        <h2>6. Sharing and Service Providers</h2>
-        <p>
-          Information may be shared with designated guardians when needed
-          to deliver a safety feature you configure or activate. LyfQR may
-          also rely on service providers to operate application functionality.
-        </p>
-        <p>
-          Depending on the services enabled, these providers may include
-          Google Firebase services for authentication, databases, notifications
-          or file storage, and Google Maps or Places services for location-based
-          utilities.
-        </p>
-        <p>
-          Information may also be disclosed where required by applicable law.
-          The specific data shared with each provider must match the services
-          and integrations actually used by LyfQR.
-        </p>
-      </section>
+    <section id="sharing">
+      <h2>6. Sharing and Service Providers</h2>
+      <p>Information may be shared with designated guardians to provide configured safety features. LyfQR may use service providers, including applicable Google Firebase services for databases, notifications or file storage, and Google Maps or Places for location-based utilities.</p>
+      <p>Information may also be disclosed where required by applicable law. Actual sharing depends on the services and integrations used by LyfQR.</p>
+    </section>
 
-      <section id="retention">
-        <h2>7. Data Retention and Deletion</h2>
-        <p>
-          Information should be retained only for as long as necessary for
-          the purpose for which it was collected, subject to applicable legal,
-          security and operational requirements.
-        </p>
-        <p>
-          Retention periods may differ for account data, trip records,
-          diagnostic logs and emergency evidence. Users should be able to
-          request deletion of eligible personal information through the
-          supported account or support process.
-        </p>
-        <p>
-          Before this policy is published, LyfQR's actual retention periods,
-          deletion process and any applicable exceptions must be documented
-          accurately.
-        </p>
-      </section>
+    <section id="retention">
+      <h2>7. Data Retention and Deletion</h2>
+      <p>SOS-generated audio recordings, SOS incident pictures and associated SOS location data are automatically deleted from the database and Firebase Storage after 48 hours.</p>
+      <p>When the in-app account deletion process is completed, applicable profile fields are cleared. These may include name, nickname, registered email stored in the profile, mobile number, blood group, emergency contacts, Blood Buddy details, social links and applicable vault profile or document fields.</p>
+      <p>Certain identifiers, including <strong>User UID, Unique Code, Guardian UID and Handshake Code</strong>, may remain stored to support account identification and safety-related connections.</p>
+      <p>Other information, such as guardian connections, trip records and technical logs, may be subject to separate retention and deletion rules. For account deletion assistance, visit our <a href="https://www.lyfqr.com/delete-data.html">Account Deletion &amp; Data page</a> or email <a href="mailto:lyfqr.support@gmail.com">lyfqr.support@gmail.com</a>.</p>
+      <div class="notice">Clearing profile information and deleting SOS evidence are separate processes. Different information types may have different retention periods.</div>
+    </section>
 
-      <section id="security">
-        <h2>8. Data Security</h2>
-        <p>
-          LyfQR uses appropriate safeguards intended to protect information
-          against unauthorized access, loss, misuse or disclosure. No
-          electronic storage or transmission method can be guaranteed to
-          be completely secure.
-        </p>
-      </section>
+    <section id="security">
+      <h2>8. Data Security</h2>
+      <p>LyfQR uses safeguards intended to protect information from unauthorized access, loss, misuse or disclosure. However, no electronic storage or transmission method can be guaranteed completely secure.</p>
+    </section>
 
-      <section id="children">
-        <h2>9. Children's Privacy</h2>
-        <p>
-          LyfQR's intended audience and treatment of children's information
-          must comply with applicable laws and the application's declared
-          target audience. The application should not knowingly collect
-          children's personal information in a manner prohibited by law.
-        </p>
-      </section>
+    <section id="children">
+      <h2>9. Children's Privacy</h2>
+      <p>LyfQR's target audience and handling of children's information are subject to applicable laws and the audience declared for the application. Information about children must be handled in accordance with applicable requirements.</p>
+    </section>
 
-      <section id="choices">
-        <h2>10. Your Choices and Rights</h2>
-        <p>
-          Subject to applicable law, users may request access to, correction
-          of or deletion of eligible personal information. Users can also
-          manage device permissions through Android settings.
-        </p>
-        <p>
-          Disabling permissions required by a feature may prevent that
-          feature from working correctly.
-        </p>
-      </section>
+    <section id="choices">
+      <h2>10. Your Choices and Rights</h2>
+      <p>Subject to applicable law, users may request access to, correction of or deletion of eligible personal information. Users can manage device permissions in Android settings. Disabling required permissions may limit related features.</p>
+    </section>
 
-      <section id="changes">
-        <h2>11. Changes to This Policy</h2>
-        <p>
-          This policy may be updated when LyfQR's features, data practices
-          or legal obligations change. The current version will be published
-          on the official website.
-        </p>
-      </section>
+    <section id="changes">
+      <h2>11. Changes to This Policy</h2>
+      <p>This policy may be updated when LyfQR features, data practices or legal obligations change. The latest version will be published on our official website.</p>
+    </section>
 
-      <section id="contact">
-        <h2>12. Contact Us</h2>
-        <p>
-          For privacy questions or requests concerning personal information,
-          contact LyfQR:
-        </p>
-        <ul>
-          <li><strong>Application:</strong> LyfQR</li>
-          <li><strong>Website:</strong> <a href="https://www.lyfqr.com/">www.lyfqr.com</a></li>
-          <li><strong>Email:</strong> <a href="mailto:lyfqr.support@gmail.com">lyfqr.support@gmail.com</a></li>
-        </ul>
-        <p>
-          Please do not send passwords, authentication codes or other
-          sensitive login credentials by email.
-        </p>
-      </section>
-    </div>
-  </main>
+    <section id="contact">
+      <h2>12. Contact Us</h2>
+      <p>For privacy questions or requests concerning personal information:</p>
+      <ul>
+        <li><strong>Application:</strong> LyfQR</li>
+        <li><strong>Website:</strong> <a href="https://www.lyfqr.com/">www.lyfqr.com</a></li>
+        <li><strong>Email:</strong> <a href="mailto:lyfqr.support@gmail.com">lyfqr.support@gmail.com</a></li>
+      </ul>
+      <p>Please do not send passwords or authentication codes by email.</p>
+    </section>
+  </div>
+</main>
 
-  <footer>
-    <div class="container">
-      © 2026 LyfQR. All rights reserved.
-      <p>
-        <a href="https://www.lyfqr.com/">Home</a>
-        <a href="https://www.lyfqr.com/privacy-policy.html">Privacy Policy</a>
-        <a href="mailto:lyfqr.support@gmail.com">Contact Support</a>
-      </p>
-    </div>
-  </footer>
+<footer>
+  <div class="container">
+    © 2026 LyfQR. All rights reserved.
+    <p>
+      <a href="https://www.lyfqr.com/">Home</a>
+      <a href="https://www.lyfqr.com/privacy-policy.html">Privacy Policy</a>
+      <a href="https://www.lyfqr.com/delete-data.html">Account Deletion</a>
+      <a href="mailto:lyfqr.support@gmail.com">Contact Support</a>
+    </p>
+  </div>
+</footer>
 </body>
 </html>
