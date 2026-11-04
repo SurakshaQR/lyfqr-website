@@ -1,1 +1,14 @@
-
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.lyfqr.app",
+      "sha256_cert_fingerprints": [
+        "1D:D6:7A:BE:D4:A0:32:EF:CE:28:A9:EC:2D:BF:BB:2A:A3:0D:03:9F:C3:06:54:B9:8C:CF:35:54:F5:42:8E:5A"
+      ]
+    }
+  }
+]
